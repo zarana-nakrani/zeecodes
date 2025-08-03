@@ -19,7 +19,13 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
-      }
+      },
+      perspective: {
+        '800': '800px',
+      },
+      rotate: {
+        'x-70': '70deg',
+      },
     }
   },
   variants: {

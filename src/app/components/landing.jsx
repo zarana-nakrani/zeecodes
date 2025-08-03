@@ -81,10 +81,10 @@ const Landing = () => {
             Hey there👋🏻 
             <span> I am out here solving problems as a Full Stack developer, Cloud and ML enthusiast. Being an engineer I love making things easy for public by the means of technology. I identify as a person who likes to "figure things out".</span>
         </p>
-        <Button>Resume <TfiDownload /></Button>
         <p>
             Scroll down to learn more about me
         </p>
+    <Button className='w-50 mt-3'>Resume <TfiDownload /></Button>
       </div>
     </div>
   )
