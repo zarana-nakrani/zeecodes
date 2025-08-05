@@ -1,20 +1,5 @@
-// import Image from 'next/image'
-// import { Progress } from '@/components/ui/progress'
 "use client"
 import SkillsChart from "../components/SkillsChart"
-import { Card, CardContent } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import { SiNodedotjs } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
-import { FaAws } from "react-icons/fa6";
-import { SiGooglecloud } from "react-icons/si";
 
 export default function SkillsPage() {
   // return (
