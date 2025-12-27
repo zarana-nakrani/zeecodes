@@ -54,16 +54,16 @@ export default function ProjectsPage() {
         <p className="text-center md:text-lg lg:text-xl max-w-md mx-auto text-white/60 mt-4">
           Build solutions that are data-driven, full stack and AI-integrated
         </p>
-        <div className="flex flex-col mt-10 md:mt-20 gap-20">
+        <div className="flex flex-col mt-10 md:mt-20 gap-20 ">
           {projects.map((project) => (
             <div
               key={project.title}
               className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl  after:outline-white/20 px-8 pt-8 md:pt-12 md:px-12 lg:pl-20 lg:pt-16 lg:pr-0"
             >
               <div className='lg:grid lg:grid-cols-2 lg:gap-20'>
-                <div>
-              <div className="flex">
-                <div className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent flex flex-row flex-wrap md:inline-flex gap-2 font-bold uppercase tracking-widest text-sm">
+              <div>
+              <div className="flex ">
+                <div className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent flex flex-row flex-wrap md:inline-flex gap-2 font-bold uppercase tracking-widest text-sm ">
                   {project.tech_stack.map((tech, index) => (
                     <span key={tech}>
                       {tech}

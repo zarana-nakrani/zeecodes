@@ -3,6 +3,7 @@ import Header from '@/app/components/header'
 import SkillsPage from './skills/page'
 import { Separator } from '@/components/ui/separator'
 import ProjectsPage from './projects/page'
+import Education from './education/page'
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <SkillsPage />
         <Separator orientation='vertical' className='mt-8' />
         <ProjectsPage />
+        <Separator orientation='vertical' className='mt-8' />
+        <Education />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap lg:items-end items-end justify-end">
         

@@ -8,8 +8,8 @@ export default function SkillsPage() {
   
   return (
     // Skills and Project section
-    <>
-    <h1 className='font-bold text-3xl mt-10'>Skills</h1>
+    <div className="flex my-10 items-center flex-col">
+    <h1 className='font-bold text-3xl my-10'>Skills</h1>
     {/* <div className="grid grid-cols-2 gap-3 w-full h-screen justify-center"> */}
       <section className='grid grid-cols-2 md:grid-col-2 lg:flex ld:flex-row  justify-center gap-20 my-10'>
       <SkillsChart language="Frontend"/>
@@ -38,7 +38,7 @@ export default function SkillsPage() {
 
       {/* </section> */}
     {/* </div> */}
-    </>
+    </div>
     // <div>Hello world</div>
   )
 }

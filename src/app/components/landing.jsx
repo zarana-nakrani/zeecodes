@@ -46,8 +46,8 @@ const Landing = () => {
   }, [displayText, isDeleting])
 
   return (
-    <div className="container overflow-hidden">
-      <div className="grid lg:grid-cols-2 flex-col columns-2 lg:gap-5 gap-10 justify-between h-full overflow-hidden">
+    <div className="container overflow-hidden my-10">
+      <div className="grid lg:grid-cols-2 flex-col columns-2 lg:gap-5 gap-10 justify-between h-full">
         <div className="flex flex-row">
           <Image
             src="/action_figure.jpg"
