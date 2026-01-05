@@ -8,7 +8,7 @@ import Education from './education/page'
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] h-screen md:grid-col items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] sm:mx-10 ">
-      <header className='absolute md:fixed top-10'>
+      <header className='absolute md:fixed top-10 z-50'>
         <Header />
       </header>
       {/* <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center"> */}
