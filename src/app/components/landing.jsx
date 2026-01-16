@@ -8,6 +8,7 @@ import { SiLeetcode, SiMedium } from 'react-icons/si'
 import { SlSocialLinkedin } from 'react-icons/sl'
 import { TfiDownload } from 'react-icons/tfi'
 import { Button } from '@/components/ui/button'
+import action_figure from "@/assets/images/action_figure.jpg"
 
 const Landing = () => {
   const qualities = [
@@ -50,7 +51,7 @@ const Landing = () => {
       <div className="grid lg:grid-cols-2 flex-col columns-2 lg:gap-5 gap-10 justify-between h-full">
         <div className="flex flex-row">
           <Image
-            src="/action_figure.jpg"
+            src={action_figure}
             alt="action figure"
             height="100"
             width="100"
