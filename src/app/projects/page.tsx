@@ -66,7 +66,7 @@ export default function ProjectsPage() {
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-20">
                 <div>
-                  <div className="flex ">
+                  <div className="flex">
                     <div className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent flex flex-row flex-wrap md:inline-flex gap-2 font-bold uppercase tracking-widest text-sm ">
                       {project.tech_stack.map((tech, index) => (
                         <span key={tech}>
