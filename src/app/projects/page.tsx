@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FiArrowUpRight } from 'react-icons/fi'
-import UberClone from '@/ass'
+import UberClone from '@/assets/images/UberClone.png'
 import propertyPulse from '@/assets/images/PropertyPulse.png'
 import stockMarketDataPipeline from '@/assets/images/Stock market data pipeline.png'
 import BrainTumorDetection from '@/assets/images/braintumordetection.png'
