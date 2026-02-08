@@ -22,7 +22,7 @@ export default function Home() {
           <ProjectsPage />
         </section>
         <Separator orientation='vertical' className='mt-8' />
-        <section id="certifications" className="w-full">
+        <section id="experience" className="w-full">
           <Education />
         </section>
       </main>

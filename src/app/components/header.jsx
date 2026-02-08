@@ -13,7 +13,7 @@ const Header = () => {
         { label: 'Home', id: 'landing' },
         { label: 'Skills', id: 'skills' },
         { label: 'Projects', id: 'projects' },
-        { label: 'Certificates', id: 'certifications' },
+        { label: 'Experience', id: 'experience' },
     ]
 
     return(
